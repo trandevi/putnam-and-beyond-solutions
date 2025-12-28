@@ -1,0 +1,26 @@
+\chapter{Methods of Proof}
+
+\section{Argument by Contradiction}
+
+\begin{problem}
+Prove that $\sqrt{2}+\sqrt{3}+\sqrt{5}$ is an irrational number.
+\end{problem}
+
+\begin{solution}
+Assume the contrary, that $\sqrt{2}+\sqrt{3}+\sqrt{5}=r$ where $r$ is rational. Then
+$\sqrt{2}+\sqrt{3}=r-\sqrt{5}$. Squaring both sides and simplifying, we get $2\sqrt{6}=r^2-2r\sqrt{5}$. 
+Then it follows that $2\sqrt{6}+2r\sqrt{5}=q$ where $q=r^2$ is rational. Squaring both sides again, we get $24+20r^2+8r\sqrt{30}=q^2$, hence $\sqrt{30}$ is rational.
+Write $\sqrt{30}=\frac{a}{b}$ in lowest terms where $a,b$ are positive integers. Then $30b^2=a^2$, so $a$ is divisible by $2$, so we can write $30b^2=4(a/2)^2$. Then
+$15b^2=2(a/2)^2$, so $b$ is also divisible by $2$, so the fraction was not in lowest terms, a contradiction. We conclude that the initial assumption was false, and therefore
+$\sqrt{2}+\sqrt{3}+\sqrt{5}$ is irrational.
+\end{solution}
+
+\begin{problem}
+Show that no set of nine consecutive integers can be partitioned into two sets with the product of the elements of the first set equal to the product of the elements of the second set.
+\end{problem}
+
+\begin{solution}
+Asssume the contrary, that there exists a set of nine consecutive integers \mbox{$\{n-4, n-3, \ldots, n+4\}$} that can be partitioned into two sets $A$ and $B$ such that the product of the elements of $A$ equals the product of the elements of $B$.
+Write the products of sets $A$ and $B$ as $P_A$ and $P_B$, respectively, and let $P$ denote the product of all nine consecutive integers. Then we have $P_A = P_B$ and $P = P_A \cdot P_B = P_A^2$. Thus, $P$ is a perfect square.
+Of the consecutive integers, there exists at least one multiple of $9$ and four multiples of $2$.
+\end{solution}
