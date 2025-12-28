@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.13)  28 DEC 2025 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.28)  28 DEC 2025 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/dtsdd/Documents/VSCode/LaTeXProjects/PutnamAndBeyondSolutions/main.tex
-(c:/Users/dtsdd/Documents/VSCode/LaTeXProjects/PutnamAndBeyondSolutions/main.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+**c:/Users/dtsdd/Documents/VSCode/putnam-and-beyond-solutions/main.tex
+(c:/Users/dtsdd/Documents/VSCode/putnam-and-beyond-solutions/main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
 (C:\Users\dtsdd\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\dtsdd\AppData\Local\Programs\MiKTeX\tex/latex/base\bk11.clo
@@ -25,7 +25,7 @@ File: bk11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
 ) (preamble.tex (C:\Users\dtsdd\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
@@ -86,8 +86,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (C:\Users\dtsdd\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (C:\Users\dtsdd\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
@@ -133,7 +133,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
  (C:\Users\dtsdd\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 \c@problem=\count299
 ) (C:\Users\dtsdd\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
 ) (main.aux)
 \openout1 = `main.aux'.
@@ -198,8 +198,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 LaTeX Warning: No \author given.
 
-
-
 [1
 
 
@@ -207,37 +205,28 @@ LaTeX Warning: No \author given.
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- (chapters/ch01-methods-of-proof.tex
-
-[1
+ (chapters/ch01-methods-of-proof.tex [1
 
 ]
 Chapter 1.
-
-Overfull \hbox (38.26463pt too wide) in paragraph at lines 23--26
-\OT1/cmr/bx/n/10.95 Solution. \OT1/cmr/m/it/10.95 Ass-sume the con-trary, that there ex-ists a set of nine con-sec-u-tive in-te-gers []
- []
-
-)
-
-[2
+) [2
 
 ] (main.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2452 strings out of 468133
- 36348 string characters out of 5430711
- 443481 words of memory out of 5000000
- 31069 multiletter control sequences out of 15000+600000
- 636095 words of font info for 74 fonts, out of 8000000 for 9000
+ 2459 strings out of 467871
+ 36359 string characters out of 5418375
+ 447034 words of memory out of 5000000
+ 31338 multiletter control sequences out of 15000+600000
+ 636991 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,68p,396b,210s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,6n,68p,386b,210s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (3 pages, 103086 bytes).
+Output written on main.pdf (3 pages, 102966 bytes).
 PDF statistics:
  52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
