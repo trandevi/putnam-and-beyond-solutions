@@ -7,10 +7,10 @@ Prove that $\sqrt{2}+\sqrt{3}+\sqrt{5}$ is an irrational number.
 \end{problem}
 
 \begin{solution}
-Assume the contrary, that $\sqrt{2}+\sqrt{3}+\sqrt{5}=r$ where $r$ is rational. Then
+Assume the contrary, that $\sqrt{2}+\sqrt{3}+\sqrt{5}=r$, where $r$ is rational. Then
 $\sqrt{2}+\sqrt{3}=r-\sqrt{5}$. Squaring both sides and simplifying, we get $2\sqrt{6}=r^2-2r\sqrt{5}$. 
 Then it follows that $2\sqrt{6}+2r\sqrt{5}=q$ where $q=r^2$ is rational. Squaring both sides again, we get $24+20r^2+8r\sqrt{30}=q^2$, hence $\sqrt{30}$ is rational.
-Write $\sqrt{30}=\frac{a}{b}$ in lowest terms where $a,b$ are positive integers. Then $30b^2=a^2$, so $a$ is divisible by $2$, so we can write $30b^2=4(a/2)^2$. Then
+Write $\sqrt{30}=a/b$ in lowest terms where $a,b$ are positive integers. Then $30b^2=a^2$, so $a$ is divisible by $2$, so we can write $30b^2=4(a/2)^2$. Then
 $15b^2=2(a/2)^2$, so $b$ is also divisible by $2$, so the fraction was not in lowest terms, a contradiction. We conclude that the initial assumption was false, and therefore
 $\sqrt{2}+\sqrt{3}+\sqrt{5}$ is irrational.
 \end{solution}
@@ -20,7 +20,18 @@ Show that no set of nine consecutive integers can be partitioned into two sets w
 \end{problem}
 
 \begin{solution}
-Asssume the contrary, that there exists a set of nine consecutive integers $\newline\{n-4, n-3, \ldots, n+4\}$ that can be partitioned into two sets $A$ and $B$ such that the product of the elements of $A$ equals the product of the elements of $B$.
-Write the products of sets $A$ and $B$ as $P_A$ and $P_B$, respectively, and let $P$ denote the product of all nine consecutive integers. Then we have $P_A = P_B$ and $P = P_A \cdot P_B = P_A^2$. Thus, $P$ is a perfect square.
-Of the consecutive integers, there exists at least one multiple of $9$ and four multiples of $2$.
+Asssume the contrary, that there exists a set of nine consecutive integers $\newline\{n, n+1, \ldots, n+8\}$ that can be partitioned into two sets $A$ and $B$ such that the product of the elements of $A$ equals the product of the elements of $B$.
+Write the products of sets $A$ and $B$ as $P_A$ and $P_B$, respectively. Note that if any integer in the set is divisble by a prime greater than $7$, it is the only integer
+divisble by such prime in the set and thus $P_A$ and $P_B$ would not be equal. Since every set of nine consecutive integers must contain at least one multiple of
+$7$, we must have exactly seven integers that are not divisble by $7$, whose prime factors may only be $2$, $3$, and $5$. In any set of nine consecutive integers, there are
+either four or five odd numbers. Suppose there are five odd numbers $\{n, n+2, n+4, n+6, n+8 \}$. There can be at most two multiples of $3$ in this set, one multiple of $5$,
+and one multiple of $7$. So there are at most four distinct odd integers divisible by $3$, $5$, and $7$. Since there are five odd numbers in the set, we have one odd number
+that is not divisible by any prime greater than $3$. Since it is not even, it must be either $1$ or $-1$. The only sets that contain $1$ or $-1$ and not zero is
+$\{ 1, 2, 3, 4, 5, 6, 7, 8, 9 \}$ and $\{-9, -8, -7, -6, -5, -4, -3, -2, -1 \}$. Note that each of these contains only one multiple of $7$, so these sets are not allowed.
+Thus our set must contain $0$. But $0$ can only be in one of $A$ and $B$, which would make one of $P_A$ and $P_B$ zero while the other one is nonzero, a contradiction.
+We conclude that the initial assumption was false, and therefore no such set exists.
 \end{solution}
+
+\begin{problem}
+    Find the least positive integer $n$ such that any set of $n$ pairwise relatively prime integers greater than $1$ and less than $2005$ contains at least one prime number.
+\end{problem}

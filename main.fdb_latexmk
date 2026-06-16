@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1766961733.73391 "c:/Users/dtsdd/Documents/VSCode/putnam-and-beyond-solutions/main.tex" "main.pdf" "main" 1766961734.31244 0
-  "C:/Users/dtsdd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1766961662 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1781573192.56751 "c:/Users/dtsdd/Documents/VSCode/putnam-and-beyond-solutions/main.tex" "main.pdf" "main" 1781573193.12922 0
+  "C:/Users/dtsdd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1781500673 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/dtsdd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1766961647 13333488 3e3f6e895ddac86d3f3fb3d13b68485c ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -23,7 +23,6 @@
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
-  "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -31,7 +30,6 @@
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1734114575 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1734114575 1057 525c2192b5febbd8c1f662c9468335bb ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/tex/latex/amscls/amsthm.sty" 1591023609 12594 0d51ac3a545aaaa555021326ff22a6cc ""
@@ -51,11 +49,11 @@
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1749322634 2671 d9941f4bf4750e9b0603c9a2ec54693b ""
   "C:/Users/dtsdd/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1761202581 30662 bfd6e864f4ffc5018b0e2b6260c3181c ""
   "c:/Users/dtsdd/Documents/VSCode/putnam-and-beyond-solutions/main.tex" 1766960715 227 0a7196cee7153ad90cd2d917e910c07f ""
-  "chapters/ch01-methods-of-proof.tex" 1766961732 1782 9355e6d21e8c202aa709bc5997815ba5 ""
-  "main.aux" 1766961734 327 dccd181ef2edfdeca22d1cbc589f2a9c "pdflatex"
+  "chapters/ch01-methods-of-proof.tex" 1781573191 3102 02301c31a6dea00a963f71968f35fd68 ""
+  "main.aux" 1781573192 327 dccd181ef2edfdeca22d1cbc589f2a9c "pdflatex"
   "main.tex" 1766960715 227 0a7196cee7153ad90cd2d917e910c07f ""
-  "main.toc" 1766961734 137 0d2d4e4fb7728bb73e169c89d29396ba "pdflatex"
-  "preamble.tex" 1766960715 696 9e0759dfe6970abac01bb32189cc25d6 ""
+  "main.toc" 1781573192 137 0d2d4e4fb7728bb73e169c89d29396ba "pdflatex"
+  "preamble.tex" 1781570498 723 32ac85e7892b67a03fdafa106496f4cf ""
   (generated)
   "main.aux"
   "main.log"
