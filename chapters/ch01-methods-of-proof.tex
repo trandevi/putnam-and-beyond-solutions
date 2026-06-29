@@ -21,17 +21,24 @@ Show that no set of nine consecutive integers can be partitioned into two sets w
 
 \begin{solution}
 Asssume the contrary, that there exists a set of nine consecutive integers $\newline\{n, n+1, \ldots, n+8\}$ that can be partitioned into two sets $A$ and $B$ such that the product of the elements of $A$ equals the product of the elements of $B$.
-Write the products of sets $A$ and $B$ as $P_A$ and $P_B$, respectively. Note that if any integer in the set is divisble by a prime greater than $7$, it is the only integer
-divisble by such prime in the set and thus $P_A$ and $P_B$ would not be equal. Since every set of nine consecutive integers must contain at least one multiple of
-$7$, we must have exactly seven integers that are not divisble by $7$, whose prime factors may only be $2$, $3$, and $5$. In any set of nine consecutive integers, there are
-either four or five odd numbers. Suppose there are five odd numbers $\{n, n+2, n+4, n+6, n+8 \}$. There can be at most two multiples of $3$ in this set, one multiple of $5$,
-and one multiple of $7$. So there are at most four distinct odd integers divisible by $3$, $5$, and $7$. Since there are five odd numbers in the set, we have one odd number
-that is not divisible by any prime greater than $3$. Since it is not even, it must be either $1$ or $-1$. The only sets that contain $1$ or $-1$ and not zero is
-$\{ 1, 2, 3, 4, 5, 6, 7, 8, 9 \}$ and $\{-9, -8, -7, -6, -5, -4, -3, -2, -1 \}$. Note that each of these contains only one multiple of $7$, so these sets are not allowed.
-Thus our set must contain $0$. But $0$ can only be in one of $A$ and $B$, which would make one of $P_A$ and $P_B$ zero while the other one is nonzero, a contradiction.
-We conclude that the initial assumption was false, and therefore no such set exists.
+Then at least one of $A$ or $B$ has at least $5$ elements. Without loss of generality, let $|A| \geq 5$.
+Then the product of the elements in $A$, denoted $P_A$, is greater than or equal to $n(n+1)(n+2)(n+3)(n+4)$. Similarly, $|B| \leq 4$, so
+the product of the elements in $B$, denoted $P_B$, is less than or equal to $(n+5)(n+6)(n+7)(n+8)$. Then we have
+$n(n+1)(n+2)(n+3)(n+4) \leq P_A = P_B \leq (n+5)(n+6)(n+7)(n+8)$. So the inequality $n(n+1)(n+2)(n+3)(n+4) \leq (n+5)(n+6)(n+7)(n+8)$ must hold.
+Equivalently, $n+4 \leq \left( \dfrac{n+5}{n} \right)\left( \dfrac{n+6}{n+1} \right)\left( \dfrac{n+7}{n+2} \right)\left( \dfrac{n+8}{n+3} \right)
+= \left( 1 + \dfrac{5}{n} \right) \left( 1 + \dfrac{5}{n+1} \right) \left( 1 + \dfrac{5}{n+2} \right) \left( 1 + \dfrac{5}{n+3} \right)$.
+The LHS is monotonically increasing as positive $n$ increases and the RHS is monotonically decreasing as positive $n$ increases.
+The inequality works for $5$ and fails for $6$, so $n \leq 5$. The set of nine integers cannot contain $0$ as $0$ can be in at most
+$1$ set, making the product of only that set $0$. Further, the set of nine integers cannot only be negative as the size of $A$ and $B$ have opposite parity, and thus
+their products would have opposite signs. Therefore the only possible sets are $\{ 1, 2, \dots, 9 \}$, $\{ 2, 3, \dots, 10 \}$, 
+$\{ 3, 4, \dots, 11 \}$, $\{ 4, 5, \dots, 12 \}$, and $\{ 5, 6, \dots, 13 \}$. Notice that each of these sets have only one multiple of $7$. 
+Then the prime factorization of only one of $P_A$ or $P_B$ can have a $7$, contradicting the inequality. We conclude that the initial assumption was false, and so the claim follows.
 \end{solution}
 
 \begin{problem}
     Find the least positive integer $n$ such that any set of $n$ pairwise relatively prime integers greater than $1$ and less than $2005$ contains at least one prime number.
 \end{problem}
+
+\begin{solution}
+
+\end{solution}
