@@ -59,5 +59,22 @@ Then the prime factorization of only one of $P_A$ or $P_B$ can have a $7$, contr
 \end{problem}
 
 \begin{solution}
-
+    Assume for contradiction that none of the colors attain all distances. Let
+    $d_r$ be a distance that red does not attain, $d_b$ be a distance that blue does not attain,
+    and $d_g$ be a distance that green does not attain. Without loss of generality, suppose
+    $d_r \geq d_b \geq d_g$. First consider the case where there exists a red point in the space, say
+    $p$. Then the sphere $S_{d_r}(p)$ can only be colored blue or green. Consider the case
+    where there exists a blue point on the sphere, say $q$. Then the intersection of $S_{d_r}(p)$ and
+    $S_{d_b}(q)$ is a circle since $d_b \leq d_r$. Then this circle must be colored green. Let $r$ denote the radius
+    of this circle, recall $d_r$ is the length of the line segment between $p$ and $q$, and let $x$ be the length of the
+    line segment from $p$ to the circle. Then $d_r^2 + x^2 = r^2$ and $d_b^2 + (d_r - x)^2 = r^2$. So
+    $r = \sqrt{d_{b}^{2}-\dfrac{d_{b}^{4}}{4d_{r}^{2}}}$. Since $d_g \leq d_b$, $r \geq d_b\sqrt{\dfrac{3}{4}}$.
+    So the diameter of the circle is at least $\sqrt{3}d_b > d_b \geq d_g$. Then $d_g$ attains every distance
+    between $0$ and $d_b$, contradiction. Now consider the case where there does not exist a blue point on the sphere.
+    Let $q$ be a green point on the sphere, and consider $S_{d_g}(q)$. Since $d_g < d_r$, the intersection if 
+    $S_{d_g}(q)$ and $S_{d_r}(p)$ is a circle which cannot be colored red, green, or blue, a contradiction.
+    Now consider the case where there does not exist a red point in the space. Then let $p$ be a blue 
+    point in the space, and consider the sphere $S_{d_b}(p)$. This sphere must be colored green, but then green would
+    attain all distances between $0$ and $2d_b$, contradiction. Note that if the entire space was one color, that color would clearly
+    attain all distances. Thus we conclude that at least one color must attain all distances.
 \end{solution}
