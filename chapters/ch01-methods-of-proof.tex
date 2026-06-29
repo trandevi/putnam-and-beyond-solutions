@@ -40,5 +40,24 @@ Then the prime factorization of only one of $P_A$ or $P_B$ can have a $7$, contr
 \end{problem}
 
 \begin{solution}
+    Note that the set of numbers $\{2^2, 3^2, 5^2, \dots, 43^2 \}$ are pairwise relatively prime,
+    showing that $n \geq 15$. Assume for contradiction that there exist composite pairwise relatively
+    prime positive integers $m_1, m_2, \dots, m_{15}$ such that $1 < m_i < 2005$ for all
+    $1 \leq i \leq 15$. Since each of the $m_i$ are composite, there exists a prime factor $q_i$ of
+    $m_i$ such that $q_i \leq \sqrt{m_i} < \sqrt{2005} < 45$. So 
+    $q_i \in \{ 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43 \}$. There are
+    fourteen primes in this set, but we have fifteen integers, so by the Pigeonhole Principle, at leaast
+    one prime is shared by two integers in this set. This contradicts that 
+    the integers are relatively prime. Hence our assumption was false and we conclude
+    $n = 15$.
+\end{solution}
+
+\begin{problem}
+    Every point of three-dimensional space is colored red, green, or blue. Prove that one
+    of the colors attains all distances, meaning that any positive real number represents the distance
+    the distance between two points of this color.
+\end{problem}
+
+\begin{solution}
 
 \end{solution}
