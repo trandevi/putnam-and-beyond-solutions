@@ -79,3 +79,72 @@ Then the prime factorization of only one of $P_A$ or $P_B$ can have a $7$, contr
     attain all distances between $0$ and $2d_b$, contradiction. Note that if the entire space was one color, that color would clearly
     attain all distances. Thus we conclude that at least one color must attain all distances.
 \end{solution}
+
+\begin{problem}
+    The union of nine planar surfaces, each of area equal to $1$, has a total area equal to
+    $5$. Prove that the overlap of some two of these surfaces has an area greater than or equal to
+    $\dfrac{1}{9}$.
+\end{problem}
+
+\begin{solution}
+    Let $S_1, S_2, \dots, S_9$ be nine planar surfaces of area $1$, total area $5$, and assume for contradiction
+    that the overlap of any two surfaces has area less than $\dfrac{1}{9}$. Let $A(S_i)$ denote the area of surface
+    $S_i$. Then $A(S_1 \cup S_2) = A(S_1) + A(S_2) - A(S_1 \cap S_2) > 1 + 1 - \dfrac{1}{9} = 
+    1 + \dfrac{8}{9}$. Then $A(S_1 \cup S_2 \cup S_3) = A(S_1 \cup S_2) + A(S_3) - A((S_1 \cup S_2) \cap S_3)
+    = A(S_1 \cup S_2) + A(S_3) - A((S_1 \cap S_3) \cup (S_2 \cap S_3)) > 1 + \dfrac{8}{9}
+    + 1 - \left(\dfrac{1}{9} + \dfrac{1}{9}\right) = 1 + \dfrac{8}{9} + \dfrac{7}{9}$. Continuing in this fashion,
+    $A(S_1 \cup S_2 \cup \cdots \cup S_9) > 1 + \dfrac{8}{9} + \dfrac{7}{9} + \cdots + \dfrac{1}{9} = 5$,
+    contradicting the assumption that the total area is $5$. Hence our assumption was false and we conclude
+    that the overlap of some two of these surfaces has an area greater than or equal to $\dfrac{1}{9}$.
+\end{solution}
+
+\begin{problem}
+    Show that there does not exist a strictly increasing function $f: \mathbb{N} \to \mathbb{N}$ satisfying
+    $f(2) = 3$ and $f(mn) = f(m)f(n)$ for all $m, n \in \mathbb{N}$.
+\end{problem}
+
+\begin{solution}
+    Assume for contradiction that there exists such a function. Since $f(4) = 9$, 
+    $f(3) \in \{ 4, 5, 6, 7, 8 \}$. Further, $f(8) = 27$, so $f(9) > 27$, or
+    $f(3) > 5$, so $f(3) \in \{ 6, 7, 8 \}$. If $f(3) = 6$, then $f(243) = 7776$ but
+    $f(256) = 6561$, contradicting the strictly increasing property. If $f(3) = 7$, then $f(81) = 2401$ but 
+    $f(128) = 2187$, contradicting the strictly increasing property. If $f(3) = 8$, then $f(27) = 512$ but
+    $f(32) = 243$, contradicting the strictly increasing property. Hence our assumption was false and no such function exists.
+\end{solution}
+
+\begin{problem}
+    Determine all functions $f: \mathbb{N} \to \mathbb{N}$ satisfying
+    $$xf(y) + yf(x) = (x+y)f(x^2 + y^2)$$
+    for all positive integers $x$ and $y$.
+\end{problem}
+
+\begin{proof}
+    The only possible functions satisfying this property is any constant function.
+    Note that if $f$ is a constant function, say $f(x) = c$, then
+    $xf(y) + yf(x) = xc + yc = (x + y)c = (x+y)f(x^2 + y^2)$. Suppose for contradiction that
+    $f$ is a non-constant function satisfying the property. Then there exists
+    $a, b \in \mathbb{N}$ such that $f(a) < f(b)$. Then $af(a) + bf(a) < af(b) + bf(a) < af(b) + bf(b)$, 
+    or equivalently $(a+b)f(a) < (a+b)f(a^2+b^2) < (a+b)f(b)$. Dividing through by $a+b$ gives
+    $f(a) < f(a^2+b^2) < f(b)$. Repeating this process with $b = a^2 + b^2$ implies that $f$ takes on
+    infinitely many values between $f(a)$ and $f(b)$, contradicting that the codomain of $f$ is $\mathbb{N}$.
+    Hence our assumption was false and the only functions satisfying the property are constant functions.
+\end{proof}
+
+\begin{problem}
+    Show that the interval $[0, 1]$ cannot be partitioned into two disjoint sets $A$ and $B$
+    such that $B = A + a$ for some real number $a$.
+\end{problem}
+
+\begin{solution}
+   
+\end{solution}
+
+\begin{problem}
+    Let $n > 1$ be an arbitrary real number and let $k$ be the number of positive prime numbers less than or equal to
+    $n$. Select $k + 1$ positive integers such that none of them divides the product of all the others. Prove that
+    there exists a number among the chosen $k + 1$ that is bigger than $n$.
+\end{problem}
+
+\begin{solution}
+
+\end{solution}
